@@ -1,12 +1,13 @@
 import React from 'react';
+import Layout from '../../components/Layout';
 
 interface Props {}
 
 const MenuPage: React.FC<Props> = (props: Props) => {
   return (
-    <div>
+    <Layout>
       <h1>Menu Page</h1>
-    </div>
+    </Layout>
   );
 };
 
